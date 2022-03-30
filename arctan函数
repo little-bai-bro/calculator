@@ -3,7 +3,7 @@ import math
 PI=3.141592654
 while(1):
     x=input()
-    x = int(x)
+    x = float(x)
     mult = 0
     sum = 0
     xx = 0
