@@ -15,5 +15,5 @@ def sin(x):
 			result += (radian**(2*j+1))/factorial(2*j+1)
 		else:
 			result -= (radian**(2*j+1))/factorial(2*j+1)
-	return round(result,2)#返回百分位精度的结果
+	return round(result,3)#返回千分位精度的结果
 

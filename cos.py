@@ -15,6 +15,6 @@ def cos(x):
 			result += (radian**(2*j))/factorial(2*j)
 		else:
 			result -= (radian**(2*j))/factorial(2*j)
-	return round(result,2)#返回百分位精度的结果
+	return round(result,3)#返回千分位精度的结果
 
 #print(cos(30))
